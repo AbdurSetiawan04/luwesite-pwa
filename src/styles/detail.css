@@ -1,0 +1,156 @@
+/* DETAIL */
+.container {
+    margin: 2em 10%;
+    padding: 1em;
+  }
+
+  .detail {
+    display: grid;
+    grid-gap: 1.545em;
+    font-size: 1em;
+  }
+  
+  .detail-img {
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+  }
+  
+  .detail-name-address-rating {
+    display: inline-block;
+    font-size: 1.0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .icon-primary {
+    color: var(--btn);
+  }
+  
+  .detail h3 {
+    font-size: 1.5em;
+    padding: 1em 0 0 0;
+    background-color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  .detail-desc {
+    text-align: justify;
+    color: darkgrey;
+    margin-bottom: 0.5em;
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  .category {
+    font-size: 1.5em;
+    padding: 0.3em 1em;
+    color: var(--primary-color);
+    background-color: var(--btn);
+    margin-right: 2px;
+    border: 1px solid transparent;
+    border-radius: 0px 10px 0px 10px;
+  }
+  
+  .detail-menu h4 {
+    font-weight: bold;
+    font-size: 1.37em;
+    padding: 1em;
+    color: var(--btn);
+    background-color: var(--primary-color);
+  }
+  
+  .detail-food {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .detail-food li {
+    padding: 0.5em 0;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .detail-drink {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .detail-drink li {
+    padding: 0.5em 0;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .detail-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .detail-info li {
+    position: relative;
+    display: block;
+    padding: 0.6em;
+  }
+  
+  /* DETAIL REVIEW */
+  .detail-review {
+    max-width: 100%;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  .detail-review-item {
+    color: black;
+    background-color: #7f7a80;
+    margin-bottom: 1.5em;
+    padding: 1em 1em;
+    border-radius: 5px;
+  }
+  
+  .detail-review-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em;
+    color: var(--btn);
+    border-bottom: 1px solid var(--font-color);
+  }
+  
+  .review-name {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .review-date {
+    font-size: 0.8em;
+    font-weight: lighter;
+  }
+  
+  .review-body {
+    padding: 1em;
+    text-align: left;
+  }
+.title-review{
+    text-align: center;
+}
+
+  .category:hover,
+  .detail-food li:hover,
+  .detail-drink li:hover,
+  .detail-review-item:hover {
+    box-shadow: 0px 10px 13px -7px var(--secondary-color),
+      5px 5px 15px 5px var(--secondary-color);
+  }
